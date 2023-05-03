@@ -1,0 +1,26 @@
+@media only screen and (max-width:768px){
+    .navbar__nav a{
+        display: none;
+    }
+    .navbar__nav .fa-bars{
+        display: block;
+    }
+    .banner form{
+        width: 80%;
+    }
+    .design__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem ;
+    }
+    .blog__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+}
